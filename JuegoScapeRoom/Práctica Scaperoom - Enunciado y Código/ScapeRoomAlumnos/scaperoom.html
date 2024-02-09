@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scape Room</title>
+  <!-- Recursos externos propios -->
+  <link rel="stylesheet" href="./style/scaperoom.css" />
+  <script src="./js/scaperoom.js" defer></script>
+</head>
+
+<body>
+  <main class="escena" id="principal">
+    <!--Flecha-->
+    <div class="flecha" id="flecha" onclick="flecha()"></div>
+    <!--Puertas-->
+    <div class="puertaRoja" id="puertaRoja" onclick="muerte()"></div>
+    <div class="puertaAzul" id="puertaAzul" onclick="muerte()"></div>
+    <div class="puertaVerde" id="puertaVerde" onclick="desafio()"></div>
+    <!--COSAS DEL MAGO-->
+    <div class="numeroVerde" id="numeroVerde" onclick="desafio2()"></div>
+    <div class="numeroAlto" id="numeroAlto" onclick="desafio3()"></div>
+    <!--BOTONES 1-->
+    <input type="text" class="respuestaUsuario" id="respuestaUsuario" placeholder="Tu respuesta">
+    <button class="enviarRespuesta" id="enviarRespuesta" onclick="verificarRespuesta1()">Enviar respuesta</button>
+    <!--BOTONES 2-->
+    <input type="text" class="respuestaUsuario" id="respuestaUsuario2" placeholder="Tu respuesta">
+    <button class="enviarRespuesta" id="enviarRespuesta2" onclick="verificarRespuesta2()">Enviar respuesta</button>
+    <!--BOTONES 3-->
+    <input type="text" class="respuestaUsuario" id="respuestaUsuario3" placeholder="Tu respuesta">
+    <button class="enviarRespuesta" id="enviarRespuesta3" onclick="verificarRespuesta3()">Enviar respuesta</button>
+    <!--BOTONES 4 (DESEO)-->
+    <input type="text" class="respuestaUsuario" id="respuestaUsuario4" placeholder="Tu respuesta">
+    <button class="enviarRespuesta" id="enviarRespuesta4" onclick="verificarRespuesta4()">Enviar respuesta</button>
+    <!--Vidas-->
+    <div class="vida1" id="vida1"></div>
+    <div class="vida2" id="vida2"></div>
+    <div class="vida3" id="vida3"></div>
+    <!--Perro final-->
+    <div class="perro" id="perro" onclick="finalSecreto()"></div>
+    <!-- Puerta principal-->
+    <div class="puerta" id="puerta" onclick="entra()"></div>
+    <div class="interruptor" id="interruptor" onclick="enciende()"></div>
+    <div class="pata" id="pata" onclick="saleTogo()"></div>
+    <!--COSAS DE LA PUERTA DE ATRÁS-->
+    <div class="cabeza" id="cabeza"></div>
+    <div class="entrarPuerta" id="entrarPuerta" onclick="entrarPuerta()"></div>
+    <div class="togo" id="togo"></div>
+    <!--Puerta izquierda-->
+    <div class="alarma" id="alarma"></div>
+    <div class="armario" id="armario" onclick="esconderArmario()"></div>
+    <div class="cama" id="cama" onclick="esconderCama()"></div>
+    <div class="sombra" id="sombra"></div>
+    <div class="salirVentana" id="salirVentana" onclick="salirVentana()"></div>
+    <div class="peleaSombra" id="peleaSombra" onclick="pelearSombra()"></div>
+    <div class="huirBosque" id="huirBosque" onclick="huirBosque()"></div>
+    <div class="huirBosque2" id="huirBosque2" onclick="huirBosque()"></div>
+
+
+    <div class="puertaPasillo1" id="puertaPasillo1" onclick="puerta1()"></div>
+    <div class="puertaPasillo2" id="puertaPasillo2" onclick="puerta2()"></div>
+    <div class="salidaBosque" id="salidaBosque" onclick="final1()"></div>
+    <!--COSAS DEL ARMARIO IZQUIERDO MORADO-->
+    <div class="pomo" id="pomo" onclick="necesitasLlave()"></div>
+    <div class="llave" id="llave" onclick="llaveConseguida()"></div>
+    <div class="panel" id="panel" onclick="panelNumerico()"></div>
+    <div class="panelTocar" id="panelTocar" onclick="panelTocar()"></div>
+    <div class="uno" id="uno" onclick="uno()"></div>
+    <div class="dos" id="dos" onclick="uno()"></div>
+    <div class="tres" id="tres" onclick="uno()"></div>
+    <div class="cuatro" id="cuatro" onclick="uno()"></div>
+    <div class="cinco" id="cinco" onclick="uno()"></div>
+    <div class="seis" id="seis" onclick="uno()"></div>
+    <div class="siete" id="siete" onclick="uno()"></div>
+    <div class="submit" id="submit" onclick="uno()"></div>
+    <div class="cero" id="cero" onclick="uno()"></div>
+    <!--Entrar al armario-->
+    <div class="armarioEntrar" id="armarioEntrar" onclick="entroArmario()"></div>
+  </main>
+  <footer class="mensaje" id="bocadillo">
+    <p id="parrafo1">Tu perro Togo se ha escapado cuando paseabas por el bosque.</p>
+    <p id="parrafo2">Oh no !!, ha entrado en la mansión abandonada.</p>
+    <p id="parrafo3">Ve a buscarle: Entra en la mansión.</p>
+  </footer>
+
+
+</body>
+
+</html>
