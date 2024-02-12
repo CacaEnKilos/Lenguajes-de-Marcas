@@ -291,6 +291,8 @@ function entrarPuerta() {
   document.getElementById("principal").style.backgroundImage = "url(img/PasilloGG.jpeg)";
   //Oculto la cabeza
   document.getElementById("cabeza").style.display = "none";
+  //Oculto la llave
+  document.getElementById("llave").style.display = "none";
   //Desactivo que puedas tocar la puerta
   document.getElementById("entrarPuerta").style.display = "none";
   //Oculto el pomo con cerradura
@@ -457,16 +459,16 @@ function llaveConseguida() {
   //Desactivo el pomo
   document.getElementById("pomo").style.pointerEvents = "none";
   //Movemos llave a candado
-  document.getElementById("llave").style.top = "604px";
-  document.getElementById("llave").style.left = "64px";
-  document.getElementById("llave").style.height = "17px";
+  document.getElementById("llave").style.top = "600px";
+  document.getElementById("llave").style.left = "62px";
+  document.getElementById("llave").style.height = "22px";
+  document.getElementById("llave").style.width = "32px";
   //Cambio el mensaje del bocadillo.
   document.getElementById("parrafo1").innerHTML = "Has encontrado la llave";
   document.getElementById("parrafo2").innerHTML = "Vamos a ver que abre";
   document.getElementById("parrafo3").innerHTML = "";
   //Activo que se pueda meter en el aramario
   document.getElementById("armarioEntrar").style.display = "block";
-
 }
 function entroArmario() {
   //Cambio la imagen de fondo cuando entro al sótano
@@ -484,6 +486,310 @@ function entroArmario() {
   document.getElementById("interruptor").style.display = "none";
   //Aparece el panel
   document.getElementById("panel").style.display = "block";
+  //Activo que tocar los cajones
+  document.getElementById("Armario1").style.display = "block";
+  document.getElementById("Armario2").style.display = "block";
+  document.getElementById("Armario3").style.display = "block";
+  document.getElementById("Armario4").style.display = "block";
+  document.getElementById("Armario5").style.display = "block";
+  document.getElementById("Armario6").style.display = "block";
+  document.getElementById("Armario7").style.display = "block";
+  document.getElementById("Armario8").style.display = "block";
+  document.getElementById("Armario9").style.display = "block";
+  document.getElementById("Armario10").style.display = "block";
+
+  //Desactivo que puedas tocar la puerta
+  document.getElementById("entrarPuerta").style.display = "none";
+
+
+
+  //NO puedes tocar los botones
+  document.getElementById("uno").style.display = "none";
+  document.getElementById("dos").style.display = "none";
+  document.getElementById("tres").style.display = "none";
+  document.getElementById("cuatro").style.display = "none";
+  document.getElementById("cinco").style.display = "none";
+  document.getElementById("seis").style.display = "none";
+  document.getElementById("siete").style.display = "none";
+  document.getElementById("submit").style.display = "none";
+  document.getElementById("cero").style.display = "none";
+  document.getElementById("botonAtras").style.display = "none";
+  document.getElementById("panelTocar").style.display = "none";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+
+}
+
+function Armario1() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos1GG.jpg)";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+}
+
+
+
+function tres() {
+  //Cambia de color el número
+  document.getElementById("tres").style.backgroundColor = "green";
+
+}
+function siete() {
+  //Cambia de color el número
+  document.getElementById("siete").style.backgroundColor = "green";
+}
+function uno() {
+  //Cambia de color el número
+  document.getElementById("uno").style.backgroundColor = "green";
+}
+function cuatro() {
+  //Cambia de color el número
+  document.getElementById("cuatro").style.backgroundColor = "green";
+}
+function submit() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/FinalBajoGG.jpeg)";
+  //Pongo el panel grande
+  document.getElementById("panelTocar").style.display = "none";
+  //Puedes tocar los botones
+  document.getElementById("uno").style.display = "none";
+  document.getElementById("dos").style.display = "none";
+  document.getElementById("tres").style.display = "none";
+  document.getElementById("cuatro").style.display = "none";
+  document.getElementById("cinco").style.display = "none";
+  document.getElementById("seis").style.display = "none";
+  document.getElementById("siete").style.display = "none";
+  document.getElementById("submit").style.display = "none";
+  document.getElementById("cero").style.display = "none";
+  document.getElementById("botonAtras").style.display = "none";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Final Burgués:";
+  document.getElementById("parrafo2").innerHTML = "Al final esta mansión no era tan mala como pensabas.";
+  document.getElementById("parrafo3").innerHTML = "Tu y Togo os quedais a vivir en la siniestra mansion.";
+}
+
+function Armario2() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos2.jpg)";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario3() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos3.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario4() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos12.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario5() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos5GG.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario6() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos6.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario7() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos7.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario8() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos8GGG.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario9() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos9.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
+  document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
+  document.getElementById("parrafo3").innerHTML = "";
+}
+function Armario10() {
+  //Cambio la imagen de fondo cuando entro al sótano
+  document.getElementById("principal").style.backgroundImage = "url(img/Archivos11GG.jpg)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
+  //Quito el panel
+  document.getElementById("panel").style.display = "none";
+  //Activo el boton para que puedas ir para atras
+  document.getElementById("botonAtras").style.display = "block";
   // Cambio el mensaje del bocadillo.
   document.getElementById("parrafo1").innerHTML = "Que habitacion más siniestra.";
   document.getElementById("parrafo2").innerHTML = "Más nos vale estar aquí poco tiempo.";
@@ -493,6 +799,17 @@ function entroArmario() {
 function panelNumerico() {
   //Cambio la imagen de fondo cuando entro al sótano
   document.getElementById("principal").style.backgroundImage = "url(img/PuertaMetal.png)";
+  //Activo que no puedas tocar los cajones
+  document.getElementById("Armario1").style.display = "none";
+  document.getElementById("Armario2").style.display = "none";
+  document.getElementById("Armario3").style.display = "none";
+  document.getElementById("Armario4").style.display = "none";
+  document.getElementById("Armario5").style.display = "none";
+  document.getElementById("Armario6").style.display = "none";
+  document.getElementById("Armario7").style.display = "none";
+  document.getElementById("Armario8").style.display = "none";
+  document.getElementById("Armario9").style.display = "none";
+  document.getElementById("Armario10").style.display = "none";
   //Quito el panel
   document.getElementById("panel").style.display = "none";
   //Pongo el panel grande
@@ -507,10 +824,14 @@ function panelNumerico() {
   document.getElementById("siete").style.display = "block";
   document.getElementById("submit").style.display = "block";
   document.getElementById("cero").style.display = "block";
+  document.getElementById("botonAtras").style.display = "block";
+  // Cambio el mensaje del bocadillo.
+  document.getElementById("parrafo1").innerHTML = "Un panel numérico.";
+  document.getElementById("parrafo2").innerHTML = "Necesitamos encontrar un código rápido.";
+  document.getElementById("parrafo3").innerHTML = "";
 }
-function uno(){
-  
-}
+
+
 
 
 function muerte() {
@@ -523,6 +844,3 @@ function muerte() {
 }
 
 
-// Desde ESCENA4.1: Idea un nuevo evento que desencadene alguna acción en tu página
-// Desde ESCENA4.2: Idea un nuevo evento que desencadene alguna acción en tu página
-// Desde ESCENA4.3: Idea un nuevo evento que desencadene alguna acción en tu página

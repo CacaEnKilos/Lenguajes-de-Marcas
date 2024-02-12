@@ -99,17 +99,15 @@ body {
   z-index: 10;
   transform: rotate(355deg);
 }
-.llave{
+.llave {
   display: none;
-  /* Inicialmente no se visualiza */
-  width: 25px;
-  height: 25px;
-  background-image: url("../img/Llave.png");
-  /* Imagen de Wombo Dream manipulada con GIMP */
+  width: 16px;
+  height: 37px;
+  background-image: url(../img/Llave.png);
   background-size: cover;
   position: absolute;
-  left: 345px;
-  top: 439px;
+  left: 422px;
+  top: 103px;
   z-index: 10;
   transform: rotate(45deg);
 }
@@ -160,6 +158,7 @@ body {
   position: absolute;
   left: 20px;
   top: 500px;
+  z-index: 12;
 }
 .numeroVerde{
   display: none;
@@ -407,12 +406,12 @@ body {
   top: 140px;
 }
 .uno{
-  display: block;
+  display: none;
   width: 69px;
   height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 206px;
+  left: 101px;
   top: 285px;
   z-index: 12;
 }
@@ -421,81 +420,263 @@ body {
 }
 .dos{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 206px;
+  top: 285px;
+  z-index: 12;
+}
+.dos:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .tres{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 312px;
+  top: 285px;
+  z-index: 12;
+}
+.tres:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .cuatro{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 101px;
+  top: 402px;
+  z-index: 12;
+}
+.cuatro:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .cinco{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 206px;
+  top: 402px;
+  z-index: 12;
+}
+.cinco:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .seis{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 312px;
+  top: 402px;
+  z-index: 12;
+}
+.seis:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .siete{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 100px;
+  top: 520px;
+  z-index: 12;
+}
+.siete:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .submit{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 206px;
+  top: 520px;
+  z-index: 12;
+}
+.submit:hover{
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .cero{
   display: none;
-  width: 182px;
-  height: 330px;
+  width: 69px;
+  height: 68px;
   background-color: transparent;
   position: absolute;
-  left: 145px;
-  top: 1px;
-  z-index: 9;
+  left: 312px;
+  top: 520px;
+  z-index: 12;
 }
+.cero:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.botonAtras{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 83px;
+  height: 83px;
+  background-image: url("../img/BotonAtras.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 192px;
+  top: 650px;
+  transform: rotate(270deg);
+
+}
+.botonAtras:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario1 {
+  display: none;
+  width: 48px;
+  height: 86px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 232px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 15deg);
+}
+.Armario1:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario2 {
+  display: none;
+  width: 29px;
+  height: 98px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 320px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 6deg);
+}
+.Armario2:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario3 {
+  display: none;
+  width: 46px;
+  height: 88px;
+  background-color: transparent;
+  position: absolute;
+  left: 38px;
+  top: 330px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 9deg);
+}
+.Armario3:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario4 {
+  display: none;
+  width: 43px;
+  height: 76px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 342px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 10deg);
+}
+.Armario4:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario5 {
+  display: none;
+  width: 36px;
+  height: 75px;
+  background-color: transparent;
+  position: absolute;
+  left: 138px;
+  top: 349px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 3deg);
+}
+.Armario5:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario6 {
+  display: none;
+  width: 29px;
+  height: 103px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 429px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 6deg);
+}
+.Armario6:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario7 {
+  display: none;
+  width: 46px;
+  height: 94px;
+  background-color: transparent;
+  position: absolute;
+  left: 37px;
+  top: 433px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 3deg);
+}
+.Armario7:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario8 {
+  display: none;
+  width: 43px;
+  height: 77px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 446px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 5deg);
+}
+.Armario8:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario9{
+  display: none;
+  width: 38px;
+  height: 82px;
+  background-color: transparent;
+  position: absolute;
+  left: 138px;
+  top: 438px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 5deg);
+}
+.Armario9:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario10{
+  display: none;
+  width: 30px;
+  height: 71px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 555px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg,-6deg);
+}
+.Armario10:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
