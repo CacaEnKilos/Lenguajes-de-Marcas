@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function millasAKm(Millas){
+            kilometros = millas * 1.60934;
+            document.getElementById("MillasAKm").innerHTML = kilómetros + "km";
+        }
+        function kmAMillas(kilometros){
+            kilometros = millas * 0.621371; 
+            document.getElementById("")
+        }
+        function limpia(){
+
+        }
+    </script>
+    <style>
+        body{
+            text-align: center;
+            min-width: 500px;
+        }
+        .morado{
+            border: 5px solid peru;
+            border-radius: 5px;
+            background-image: linear-gradient(peru,purple);
+            padding: 20px;
+            width: 500px;
+            display: grid;
+            grid-column: auto;
+        }
+        .amarillo{
+            border: 2px solid grey;
+            background-image: linear-gradient(yellow, white);
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="morado">
+        <div class="amarillo">
+            <h2>VIAJAR ES FÁCIL</h2>
+        </div>
+
+        <div class="amarillo">
+            <h4>Conversión de millas a kilómetros</h4>
+
+            <label for="millas">Millas: </label>
+            <input id="millas">
+            <button type="button" onclick="millasAKm(document.getElementById('millas').value)"></button>
+        </div>
+
+        <div class="amarillo">
+            <h4>Conversion de kilometros a millas</h4>
+            <label for="kilometros">Kilómetros:</label>
+            <input id="kilometros">
+            <button type="button" onclick="kmAMillas(document.getElementById('kilometros').value)"></button>
+        </div>
+        <div class="amarillo">
+            <input type="reset" value="Reset">
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

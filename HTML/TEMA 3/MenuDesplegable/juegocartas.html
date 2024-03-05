@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        .cabecera {
+            margin: 10px;
+            border: 2px solid lightblue;
+            background-color: gray;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url(https://wallpapercave.com/wp/wp2675347.jpg);
+            
+        }
+
+        .fondo {
+            margin: 10px;
+            border: 2px solid lightblue;
+            background-color: gray;
+            height: 700px;
+            display: flex;
+            background-image: url(https://wallpapercave.com/wp/wp2675347.jpg);
+            
+        }
+
+        .izquierdo {
+            margin: 10px;
+            border: 2px solid lightblue;
+            background-color: rgb(0, 0, 0);
+            height: 97%;
+            width: 400px;
+        }
+
+        .derecho {
+            margin: 10px;
+            border: 2px solid lightblue;
+            background-color: rgb(126, 49, 49);
+            height: 97%;
+            width: 100%;
+        }
+
+        .elemento {
+            width: 99%;
+            height: 99%;
+        }
+
+        img {
+            width: 100px;
+            vertical-align: middle;
+        }
+
+        .logo {
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .derechafloat {
+            text-decoration: none;
+            color: white;
+            transition: background-color 1s, color 1s;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .derechafloat:hover {
+            background-color: white;
+            color: purple;
+            border-radius: 10px;
+        }
+
+        .separa {
+            padding: 55px;
+            word-spacing: 15px;
+        }
+
+        /* Estilos para el menú desplegable */
+        .item {
+            position: relative;
+            display: inline-block;
+        }
+
+        .desplegable {
+            display: none;
+            position: absolute;
+            background-color: rgb(177, 177, 177);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 10px;
+        }
+
+        .desplegable a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .desplegable a:hover {
+            background-color: #ddd;
+        }
+
+        .item:hover .desplegable {
+            display: block;
+        }
+
+        .imgL {
+            position: relative;
+            top: 60px;
+            width: 100%;
+        }
+
+        .rojo{
+            color: red;
+        }
+
+        .naranja{
+            color: orange;
+        }
+        .verde{
+            color: green;
+        }
+        .azul{
+            color: lightseagreen;
+        }
+        .morado{
+            color: yellow;
+        }
+        h1{
+            color: #ddd;
+            text-align: center;
+        }
+        p{
+            color: #ddd;
+            text-align: center;
+        }
+        .pequenyo{
+            margin: 10px;
+            border: 2px solid lightblue;
+            background-color: rgb(124, 11, 168);
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="cabecera">
+        <p class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Tetris_logo.png"></p>
+        <div class="separa">
+            <a href="#" class="derechafloat rojo">PUNTUACION</a>
+            <div class="item">
+                <a href="#" class="derechafloat naranja">DIFICULTAD</a>
+                <div class="desplegable">
+                    <a href="#">Facil</a>
+                    <a href="#">Medio</a>
+                    <a href="#">Dificil</a>
+                </div>
+            </div>
+            <a href="#" class="derechafloat verde">FAQ</a>
+            <a href="#" class="derechafloat azul">ONLINE</a>
+            <a href="#" class="derechafloat morado">VOLUMEN</a>
+        </div>
+    </nav>
+    <div class="fondo">
+        <div class="izquierdo">
+            <div>
+                <h1>ULTIMAS PUNTUACIONES</h1>
+                <br>
+                <p>CHR: 4052</p>
+                <p>REN: 1725</p>
+                <p>PEP: 8124</p>
+                <p>MAR: 6335</p>
+                <p>EDU: 8543</p>
+                <br>
+                <div class="pequenyo">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="derecho">
+            <iframe class="elemento" src="https://www.lumpty.com/amusements/Games/Tetris/tetris.html" >
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>

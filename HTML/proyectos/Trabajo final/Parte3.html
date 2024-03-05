@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+    <link rel="stylesheet" href="./doc.css">
+</head>
+</head>
+
+<body>
+        <a href="./index.html" class="boton">Ir al menú</a>
+
+    <h1 class="titulo"> Parte 3</h1>
+    <div class="cajadiv">
+        <br>
+
+
+        <p class="pregunta">¿Qué es una Pull Request? ¿Cómo podriamos realizar una? ¿Qué utilidad tiene?</p>
+        <p class="respuesta"> Una Pull Request facilita la colaboración entre dos o mas personas <img
+                src="https://cdn-icons-png.flaticon.com/512/32/32441.png"> en desarrollar un trabajo.<br>
+            Las Pull Requests <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/git-pull-request-512.png">
+            son un mecanismo para que los desarrolladores notifiquen a los miembros de su equipo que han
+            terminado una función.
+            <br>
+            Pero una Pull Request es mucho más que una notificación: es un foro especializado para debatir sobre una
+            función
+            propuesta.
+
+            <br>
+
+            Para realizar una Pull Request mediante comandos <img
+                src="https://cdn.icon-icons.com/icons2/38/PNG/512/commandline_5328.png"> puedes seguir estos pasos:
+            <br>
+            1. Crea una nueva rama <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/git-branch-512.png">
+            (branch) donde vayas a realizar los cambios.
+            <br>
+            "git checkout -b nombre_de_tu_rama"
+            <br>
+            2. Realiza los cambios requeridos. Puede usar el editor que quieras para realizar los cambios.
+            <br>
+
+            3. Añade los cambios al stage de Git.
+            <br>
+
+            "git add"
+            <br>
+            4. Haz un commit de tus cambios <img
+                src="https://cdn.icon-icons.com/icons2/2596/PNG/512/change_icon_155682.png"> .
+            <br>
+            "git commit -m "Descripción_de_los_Cambios" "
+            <br>
+            Sube los cambios a GitHub.
+            <br>
+            "git push origin nombre_de_tu_rama"
+            <br>
+            5. Crea la Pull Request. Para esto, puedes usar el comando request-pull.
+            <br>
+            "git request-pull master origin"
+            <br>
+            Este comando solicitará que se extraigan los cambios de tu rama al repositorio original.
+            <br>
+            Recuerda que estos pasos son generales y pueden variar dependiendo del flujo de trabajo que estés
+            utilizando.
+            Es importante siempre mantener tu rama actualizada con la rama principal para evitar conflictos al momento
+            de
+            hacer la Pull Request.
+        </p>
+
+
+        <p class="pregunta">Pon ejemplos de conflictos que te hayan surgido durante la resolución de este proyecto.</p>
+<br>
+
+<p class="respuesta"> Ejemplos de conflicto:
+    1- Christian hizo los dos primeros commits, luego Raúl añadió otros dos commits.
+    Al día siguiente yo creé un txt para ver cómo se comporta git, por lo que tras hacer el add y el commit, al
+    hacer el push me daba error.
+    <br> <br><img class="imgXL" src="./Capturas/foto2.png" alt="foto2"> <br> <br>
+    Nos dimos cuenta de que mi repositorio local estaba desactualizado, por lo que intenté hacer un pull, pero me
+    daba error.
+
+
+    <br><br> <img class="imgXL" src="./Capturas/foto3.png" alt="foto3">
+
+
+    <br><br>
+
+    Finalmente, tras probar varias cosas decidí ayudarme de internet y vi que necesitaba este comando:
+    “pull.rebase false”.
+    Sinceramente no sé muy bien por qué pero después sí pude hacer el pull pero antes se me hizo un merge.
+</p>
+
+<p class="respuesta">
+    <br>
+    2- Christian hizo una rama "Raul" para ver si podía añadir cosas desde su rama, y Christian sí pudo, luego
+    Raúl al intentar añadir algo le da error. También le da error al hacer pull.
+    Christian eliminó la rama de su repositorio local para ver si es que al estar dos personas interactuando en
+    la misma rama peta o algo. Tras borrarla a Raúl le sigue dando error. Yo me la he vuelto a crear para ver si
+    solo le pasa a él. A Christian tampoco le dejaba hacer ni commits ni pull.
+    Hemos buscado en internet y pone que es debido a que hay un conflicto de fusión, para solucionarlo hemos
+    encontrado que hay que hacer el git fetch.
+</p>
+
+</div>
+
+</body>
+    <a href="./conclusion.html" class="Parte3">Siguiente Parte</a>
+
+</html>

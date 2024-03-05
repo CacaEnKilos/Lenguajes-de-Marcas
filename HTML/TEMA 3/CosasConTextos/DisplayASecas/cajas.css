@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    border: 10px dashed blue;
+    padding: 50px;
+    margin: 50px 200px;
+    box-shadow: 20px 20px 10px darkblue;
+    /*width: 20px*/
+    overflow: hidden;
+    background-color: yellow;
+    background-image: url(./recursos_CSS/fondo1.png);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: 10% 100px;
+    background-size: 300px;
+    background-attachment: fixed;
+    /*background: red url(./recursos_CSS/fondo5.jpg);*/
+}
+h1 {
+    font-size: 50px;
+    width: 300px;
+    height: 100px;
+}
+span:first-of-type{
+    font-size: 50px;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+span:last-of-type{
+    padding: 50px;
+    display: inline-block;
+    width: 60px;
+}

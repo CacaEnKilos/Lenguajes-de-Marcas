@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer JS</title>
+    <script>
+        function diHola(){
+            window.alert("Esto es una función de alerta:HOLA!!");
+        }
+    </script>
+</head>
+<body>
+    <script>
+        window.alert("Entro en el body!!");
+    </script>
+    <h2>Donde poner mi JS</h2>
+    <button class="button" onclick="document.getElementById('fecha').innerHTML = Date()">
+        Pulsa para ver la fecha
+    </button>
+    <button type="button" onclick="diHola();">Haz click para saludar</button>
+    <p id="fecha">p original</p>
+    <script>
+        window.alert("ADIOS!! Este es el final del body");
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.superiorsticky{
+	border: 1px solid black;
+	background-color: lemonchiffon;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	color: mediumpurple;
+	width: 90%;
+	position: sticky 30px;
+}
+.contenedor{
+	background-color: rgb(146,255,213);
+	border: 1px solid rgb(12,81,94);
+	border-radius: 10px;
+	margin: 30px;
+	width: 60%;
+	height: 850px;
+	padding: 20px;
+	position: relative;
+}
+.izquierdofijo{
+	border: 1px solid lightskyblue;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color:  lemonchiffon;
+	position: fixed;
+	width: 15%;
+	top: 30%;
+	left: 20px;
+	box-sizing: 15%;
+	text-align: center;
+}
+.izquierdofijo ul{
+	padding-inline: 20px;
+}

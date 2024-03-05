@@ -1,0 +1,26 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,100px);
+    grid-template-areas:
+    "verde verde verde verde verde"
+    "rosa . amarilla amarilla amarilla"
+    "rosa azul azul azul azul"
+    ;
+}
+.cabecera{
+    background-color: green;
+    grid-area: verde;
+}
+.lateral{
+    background-color: pink;
+    grid-area: rosa;
+}
+.central{
+    background-color: yellow;
+    grid-area: amarilla;
+}
+.pie{
+    background-color: blue;
+    grid-area: azul;
+}

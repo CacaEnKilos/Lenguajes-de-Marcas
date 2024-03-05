@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FORMULARIO</h1>
+    <form>
+        <br method="get">
+        Nombre: <input name="nombre">
+        <br>
+        Password: <input type="password">
+        <br>
+        Color: <input type="color" name="color">
+        <br>
+        Email: <input type="email" name="correo">
+        <br>
+        Edad: <input type="number" name="Edad" value="18">
+        <br>
+        Fecha: <input type="date" name="Fecha" value="2023-01-07">
+        <br>
+        Hora: <input type="time" name="Fecha" value="12:30">
+        <br>
+        <input type="image" src="./recursos_HTML/img/gafas.gif">
+        <br>
+        <h4>SELECCIONA RAZA:</h4>
+        <label for="nom">Nombre:</label> 
+        <input id="nom" type="text" name="nombre" maxlength="10" size="15" required>
+        <br>
+        <input id="pastor" type="radio" name="raza" value="pastoraleman" checked>
+        <label for="pastor">Pastor Alemán:</label>
+        <br>
+        <input id="cocker" type="radio" name="raza" value="cocker">
+        <label for="cocker">Cocker:</label>
+        <br>
+        <label for="area">Área de Texto</label>
+        <textarea name="area" id="area" cols="50" rows="10" autofocus></textarea>
+        <p>
+            <label for="select">Lista desplegable</label>
+            <select name="select" id="select" size="10" multiple>
+            <optgroup label="Números">
+                <option value="1">OPCIÓN 1</option>
+                <option value="2">OPCIÓN 2</option>
+                <option value="3">OPCIÓN 3</option>
+                <option value="4" selected>OPCIÓN 4</option>
+            </optgroup>
+            <optgroup label="Números">
+                <option value="A">OPCIÓN 1</option>
+                <option value="B">OPCIÓN 2</option>
+                <option value="C">OPCIÓN 3</option>
+                <option value="D">OPCIÓN 4</option>
+            </optgroup>
+            </select>
+        </p>
+
+
+        <h4>SELECCIONA SEXO</h4>
+        <input id="hembra" type="radio" name="sexo" value="hembra">
+        <label for="hembra">hembra</label>
+        <br>
+        <input id="macho" type="radio" name="sexo" value="macho">
+        <label for="macho">macho</label>
+        <br>
+        <br>CHECKBOXES</h4>
+        <input id="Peinar" type="checkbox" name="Peinar" value="Peinar" >
+        <label for="Peinar">Peinar</label>
+        <br>
+        <input type="checkbox" name="Vacunar" value="Vacunar" checked disabled>Vacunar<br>
+        <br>
+        <input type="hidden" name="datosecreto" value="valoroculto"> 
+        <br>
+
+        <button type="submit">
+            <img src="./recursos_HTML/img/genealogia.jpg" width="400">
+            <div>ENVIAR</div>
+        </button>
+        <input type="submit" value="Enviar Formulario">
+        <input type="reset" value="Resetear">
+
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <style>
+        .contenedor{
+            display: flex;
+            border: 2px solid blue;
+            padding: 30px;
+        }
+        .opciones{
+            margin: 0px;
+            margin-top: 30px;
+            list-style-type: none;
+            display: none;
+        }
+        .contenedor:hover {
+            background-color: lightblue;
+        }
+        .contenedor:hover .opciones{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="contenedor">
+        LISTA
+        <ul class="opciones">
+            <li class="elemento"> Opción 1</li>
+            <li class="elemento"> Opción 2</li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.imgPieizq {
+    display: none;
+    width: 114px;
+    height: 137px;
+    background-image: url(./img/potato_07.gif);
+    background-size: cover;
+    position: absolute;
+    left: 313px;
+    top: 445px;
+    padding: 10px;
+}
+.imgBoca{
+    display: none;
+    /* Inicialmente no se visualiza */
+    width: 114px;
+        height: 137px;
+    background-image: url("./img/potato_05.gif");
+    /* Imagen de Wombo Dream manipulada con GIMP */
+    background-size: cover;
+    position: absolute;
+    left: 447px;
+    top: 300px;
+    padding: 10px;
+}
+.imgBrazoizq{
+    display: none;
+    width: 114px;
+    height: 137px;
+    background-image: url(./img/potato_04.gif);
+    background-size: cover;
+    position: absolute;
+    left: 319px;
+    top: 287px;
+    padding: 10px;
+}
+.imgBrazodec{
+    display: none;
+    width: 114px;
+    height: 137px;
+    background-image: url(./img/potato_06.gif);
+    background-size: cover;
+    position: absolute;
+    left: 581px;
+    top: 306px;
+    padding: 10px;
+}
+.imgCabeza{
+    display: none;
+    width: 114px;
+    height: 137px;
+    background-image: url(./img/potato_02.gif);
+    background-size: cover;
+    position: absolute;
+    left: 459px;
+    top: 149px;
+    padding: 10px;
+}
+.imgOrejadec{
+    display: none;
+    /* Inicialmente no se visualiza */
+    width: 114px;    height: 137px;
+    background-image: url("./img/potato_03.gif");
+    /* Imagen de Wombo Dream manipulada con GIMP */
+    background-size: cover;
+    position: absolute;
+    left: 590px;
+    top: 149px;
+    padding: 10px;
+}
+.imgOrejaizq{
+    display: none;
+    width: 83px;
+    height: 137px;
+    background-image: url(./img/potato_01.gif);
+    background-size: cover;
+    position: absolute;
+    left: 357px;
+    top: 144px;
+    padding: 10px;
+    
+}
+.imgPiernas{
+    display: none;
+    /* Inicialmente no se visualiza */
+    width: 114px;    height: 137px;
+    background-image: url("./img/potato_08.gif");
+    /* Imagen de Wombo Dream manipulada con GIMP */
+    background-size: cover;
+    position: absolute;
+    left: 447px;
+    top: 457px;
+    padding: 10px;
+}
+.imgPiedec{
+    display: none;
+    width: 114px;
+    height: 127px;
+    background-image: url(./img/potato_09.gif);
+    background-size: cover;
+    position: absolute;
+    left: 581px;
+    top: 463px;
+    padding: 10px;
+}

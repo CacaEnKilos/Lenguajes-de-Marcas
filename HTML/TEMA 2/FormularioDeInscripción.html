@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>INSCRIPCIÓN: FP DE GRADO SUPERIOR</h4>
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <table>
+                <tr>
+                    <td><label for="Nombre">Nombre:</label></td>
+                    <td><label for="Apellidos">Apellidos:</label></td>
+                    <td><label for="DNI">DNI:</label></td>
+                </tr>
+                <tr>
+                    <td><input name="Nombre" id="Nombre"></td>
+                    <td><input name="Apellidos" id="Apellidos"></td>
+                    <td><input name="DNI" id="DNI"></td>
+                </tr>
+                <tr>
+                    <td><label for="Localidad Nacimiento">Localidad Nacimiento:</label> </td>
+                    <td><label for="Provincia">Provincia:</label></td>
+                    <td><label for="Nacimiento"> Nacimiento:</label></td>
+                </tr>
+                <tr>
+                    <td><input name="Localidad Nacimiento" id="Localidad Nacimiento"></td>
+                    <td><input name="Provincia" id="Provincia"></td>
+                    <td><input type="date" name="Fecha" id="Nacimiento"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Dirección:</td>
+                    <td>Código Postal:</td>
+                </tr>
+                <tr>
+                    <td><input name="Nombre" size="43"></td>
+                    <td><input name="Apellidos"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <label for="Directo">Directo:</label>
+            <input id="Directo" type="radio" name="Forma" value="Directo">
+            <legend>Forma de Acceso</legend>
+            <ul type="none">
+                <li><input type="radio" name="tipo" id="LOGSE"><label for="LOGSE">LOGSE. Modalidad</label>  <input name="Modalidad"></li>
+                <li><input type="radio" name="tipo" id="Internacional"><label for="Internacional">Bachillerato Internacional</label></li>
+                <li><input type="radio" name="tipo" id="COU"><label for="COU">COU. Opción <input name="COU"></label></li>
+                <li><input type="radio" name="tipo" id="FP2"><label for="FP2">FP2</label></li>
+                <li><input type="radio" name="tipo" id="Otros"><label for="Otros">Otros (especifique)</label>  <input name="Otros"></li>
+            </ul>
+            <label for="Prueba libre">Prueba Libre</label>
+            <input type="radio" name="Forma" value="Prueba libre">
+        </fieldset>
+        <fieldset>
+            <legend>Documentos Adjuntados</legend>
+            <p>
+                <input id="Fotocopia" type="checkbox" name="Adjuntados"> <label
+                    for="Fotocopia">Fotocopia DNI</label>
+
+                    <input id="Certificado" type="checkbox" name="Adjuntados"> <label
+                    for="Certificado">Certificado Académico</label>
+            </p>
+            <p>
+                <input id="Otros Documentos" type="checkbox" name="Adjuntados"> <label
+                    for="Otros Documentos">Otros Documentos (especifique)</label> 
+                    <input name="Otros Documentos">
+            </p>
+            <input type="submit" value="Enviar Formulario">
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('victoria.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #puzzle, #success {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2 id="title">Desafío del Código Secreto</h2>
+
+<button id="start" onclick="showPuzzle()">Haz clic aquí para comenzar el desafío</button>
+
+<div id="puzzle">
+    <p>Ingresa el código secreto:</p>
+    <input type="text" id="code" placeholder="Ingresa el código aquí">
+    <button onclick="checkCode()">Enviar</button>
+</div>
+
+<div id="success">
+    <h2>¡Felicidades! Has resuelto el desafío.</h2>
+</div>
+
+<script>
+    var secretCode = "1234";  // Aquí puedes cambiar el código secreto
+
+    function showPuzzle() {
+        document.getElementById("puzzle").style.display = "block";
+    }
+
+    function checkCode() {
+        var userInput = document.getElementById("code").value;
+        if (userInput == secretCode) {
+            document.getElementById("success").style.display = "block";
+            document.getElementById("puzzle").style.display = "none";
+            document.getElementById("title").style.display = "none";
+            document.getElementById("start").style.display = "none";
+        } else {
+            alert("Código incorrecto. Intenta de nuevo.");
+        }
+    }
+</script>
+
+</body>
+</html>

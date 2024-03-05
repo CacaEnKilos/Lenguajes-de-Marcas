@@ -1,0 +1,16 @@
+div{
+    font-size: 2em;
+}
+.contenedor{
+height: 500px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 200px 300px;
+gap: 20px;
+align-items: center;
+justify-items: center;
+}
+
+.el{
+    background-color: rgba(128, 128, 41, 0.308);
+}

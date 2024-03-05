@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 javascript</title>
+    <script>
+        function pulsa(numero) {
+            window.alert("Has pulsado el botón número: " + numero);
+        }
+        function muestra(numero) {
+            document.getElementById("idDelCampo").innerHTML = "Has pulsado el botón: " + numero;
+            document.getElementById("idDelCampo").style.fontSize = "50px";
+            document.getElementById("idDelCampo").style.color = "blue";
+            document.getElementById("idDelCampo").style.textAlign = "center";
+        }
+    </script>
+</head>
+
+<body>
+    <button type="button" onclick="pulsa(1);">UNO</button>
+    <button type="button" onclick="pulsa(2);">DOS</button>
+    <button type="button" onclick="pulsa(3);">TRES</button>
+    <button type="button" onclick="pulsa(4);">CUATRO</button>
+
+    <br><br>
+
+    <button class="button" onclick="muestra(1);">UNO</button>
+    <button class="button" onclick="muestra(2);">DOS</button>
+    <button class="button" onclick="muestra(3);">TRES</button>
+    <button class="button" onclick="muestra(4);">CUATRO</button>
+
+    <p id="idDelCampo"></p>
+
+</body>
+
+</html>

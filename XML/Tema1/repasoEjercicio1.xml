@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<casa>
+    <habitacion tipo="sala de estar">
+        <objeto>Sofá</objeto>
+        <objeto>Televisión</objeto>
+        <objeto>Lámpara</objeto>
+    </habitacion>
+    <habitacion tipo="cocina">
+        <objeto>Nevera</objeto>
+        <objeto>Horno</objeto>
+        <objeto>Microondas</objeto>
+        <objeto>Vitrocerámica</objeto>
+        <objeto>Congelador</objeto>
+    </habitacion>
+    <habitacion tipo="dormitorio">
+        <objeto>Cama</objeto>
+        <objeto>Armario</objeto>
+        <objeto>Televisión</objeto>
+        <objeto>Ordenador</objeto>
+    </habitacion>
+    <habitacion tipo="terraza">
+        <objeto>Mesa</objeto>
+        <objeto>Silla</objeto>
+        <objeto>Plantas</objeto>
+        <objeto>Regadera</objeto>
+    </habitacion>
+    <habitacion tipo="dormitorio de matrimonio">
+        <objeto>Cama Matrimonial</objeto>
+        <objeto>Mesilla de noche</objeto>
+        <objeto>Armario</objeto>
+        <baño>
+            <objeto>Retrete</objeto>
+            <objeto>Vidé</objeto>
+            <objeto>Lavabo</objeto>
+            <objeto>Ducha</objeto>
+        </baño>
+    </habitacion>
+    <habitacion tipo="servicio">
+        <objeto>Lavabo</objeto>
+        <objeto>Ducha</objeto>
+    </habitacion>
+</casa>

@@ -1,0 +1,38 @@
+/* DISEÑO RESPONSIVO */
+@media (max-width: 399) {
+	.menulateral {
+		display: none;
+	}
+	.principal {
+		width: 100%;
+	}
+  }
+
+ @media (min-width: 700px) {
+	.menulateral {
+		display: flex;
+	}
+	.principal {
+		width: 70%;
+	}
+ }
+ 
+ /* DISEÑO FIJO */
+ .app {
+	 display: flex;
+ }
+ .menulateral {
+	border: 5px solid darkblue;
+	width: 30%;
+	background-color:lightyellow;
+	height:500px;
+ }
+ 
+ .principal {
+	display: flex;
+	border: 5px solid orange;
+	background-color: darkblue;
+	height:500px;
+	min-width: 500px;
+ }
+ 

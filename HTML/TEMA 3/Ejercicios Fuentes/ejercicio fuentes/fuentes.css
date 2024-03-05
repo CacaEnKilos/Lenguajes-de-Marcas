@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "1Ichiro-xwAK";
+    src: url(./fuentes/1Ichiro-xwAK.otf);
+}
+@font-face {
+    font-family: "2Peas4ThOfJuly-ARj6";
+    src: url(./fuentes/2Peas4ThOfJuly-ARj6.ttf);
+}
+@font-face {
+    font-family: "62Dragz-vmAp9";
+    src: url(./fuentes/62Dragz-vmAp9.otf);
+}
+@font-face {
+    font-family: "AbstractGroovy-MV3ZJ";
+    src: url(./fuentes/AbstractGroovy-MV3ZJ.otf);
+}
+@font-face {
+    font-family: "AccountantSignature-1GXdB";
+    src: url(./fuentes/AccountantSignature-1GXdB.otf);
+}
+@font-face {
+    font-family: "AlloyInk-lgdWw";
+    src: url(./fuentes/AlloyInk-lgdWw.otf);
+}
+@font-face {
+    font-family: "Branda-yolq";
+    src: url(./fuentes/Branda-yolq.ttf);
+}
+@font-face {
+    font-family: "Guazhiru-3gPz";
+    src: url(./fuentes/Guazhiru-3gPz.ttf);
+}
+@font-face {
+    font-family:"ChristmasGnome-nR974";
+    src: url(./fuentes/ChristmasGnome-nR974.otf);
+}
+h1{
+    font-family: 'ChristmasGnome-nR974';
+    font-size: larger;
+}
+#p1{
+    
+    font-family: '1Ichiro-xwAK';
+}
+#p2{
+    font-family: '2Peas4ThOfJuly-ARj6';
+    font-variant: small-caps;
+}
+#p3{
+    font-family: 'AbstractGroovy-MV3ZJ';
+}
+#p4{
+    font-family: 'AccountantSignature-1GXdB';
+}
+#p5{
+    font-family: 'AlloyInk-lgdWw';
+}
+#p6{
+    font-family: 'Branda-yolq';
+}
+#p7{
+    font-family: 'Guazhiru-3gPz';
+}
+#p8{
+    font-family: '62Dragz-vmAp9';
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    
+}
+h1{
+    color: yellow;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-image: url(./estrellas.png);
+    position: relative;
+    background-position: 0px;
+
+}
+body{
+    background-color: red;
+    background-image: url(./arbolDeNavidad.png);
+    background-size: cover;
+    background-size: contain;
+}

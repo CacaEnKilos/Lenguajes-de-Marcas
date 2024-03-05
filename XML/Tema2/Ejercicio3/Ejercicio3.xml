@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo.css"?>
+<Modulo curso="DAW" asignatura="Lenguaje de Marcas y Sistemas de Gestion de Informacion">
+    <Calendario>
+    <inicio>15 de septiembre</inicio>
+    <fin>30 de junio</fin>     
+    </Calendario>
+    <alumno>
+        <nombre>Ana Fernández Gutiérrez</nombre>
+        <DNI>16965696L</DNI>
+        <telefono>789654321</telefono>
+        <email>ana.fdezgtrrez@hotmail.com</email>
+        <direccion>
+            <calle>El Percebe</calle>
+            <numero>13</numero>
+            <localizacion>Santander</localizacion>
+            <CP>39302</CP>
+        </direccion>
+        <faltas>No hay información sobre las faltas de asistencia o sus notas hasta el momento.</faltas>
+    </alumno>
+    <alumno>
+        <nombre>Pepito Grillo</nombre>
+        <DNI>98765432H</DNI>
+        <telefono>656566555</telefono>
+        <email>yhyh@yahoo.com</email>
+        <direccion>
+            <calle>El Pez</calle>
+            <numero>5</numero>
+            <localizacion>Suances</localizacion>
+            <CP>39401</CP>
+        </direccion>
+        <CP>39302</CP>
+        <faltas>Su nota es "apto" y no tiene faltas de asistencia</faltas>
+        <notas>
+            <primeraEva></primeraEva>
+            <segundaEva></segundaEva>
+            <terceraEva></terceraEva>
+        </notas>
+    </alumno>
+</Modulo>

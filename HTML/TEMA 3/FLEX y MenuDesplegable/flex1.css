@@ -1,0 +1,20 @@
+.contenedor{
+    border: 2px solid blue;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.elemento{
+    border: 1px solid orange;
+    background-color: lightgoldenrodyellow;
+    flex: 1;
+}
+.penultimo{
+    margin-left: auto;
+    align-self: self-start;
+}

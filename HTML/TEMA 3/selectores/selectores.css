@@ -1,0 +1,58 @@
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    color: magenta;
+}
+/*
+p:nth-of-type(2){
+    background-color: aquamarine;
+}
+/*
+div:first-child{
+    background-color: pink;
+}
+
+div:last-child{
+    background-color: rgb(61, 223, 20);
+}
+li:nth-child(odd){
+    background-color: lightblue;
+}
+
+div > p{
+    background-color: yellow;
+}
+*/
+/*
+h1 ~ h2 {
+    background-color: pink;
+} 
+
+*/
+/*
+.grande{
+    font-size: 50px;
+}
+.rojo{
+    color: red;
+}
+*/
+/*
+h1 + p{
+    background-color: green;
+}
+*/
+/*Esto selecciona los que tienen la condición entre[]*/
+/*
+p[class]{
+    background-color: yellow;
+}
+
+p[class^= rojo]{
+    background-color: rgb(255, 0, 221)
+}
+*/

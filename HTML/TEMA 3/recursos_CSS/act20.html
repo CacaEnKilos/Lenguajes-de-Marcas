@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+<meta charset=UTF-8">
+<title>Rellena tu CV</title>
+<style>
+
+</style>
+</head>
+ 
+<body>
+ <h3>Rellena tu CV</h3>
+ 
+<form action="" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend>Datos Personales</legend>
+<p>Nombre y apellidos<br><input type="text" name="nombre"   pattern="[A-Z][a-z]*"></p>
+<p>Contraseña <br><input type="password" name="contrasena"  maxlength="10"></p>
+<p>DNI <br><input type="text" name="dni"  size="10" maxlength="10" pattern="[1-9]{9}[A-Z]" autofocus></p>
+<p>Estado actual <br>
+<input type="radio" name="ocupado" value="no" checked="checked"> Desempleado <br>
+<input type="radio" name="ocupado" value="si"> Trabajando
+</p>
+
+
+<p>Incluir mi foto <input type="file" name="foto"></p>
+<p><textarea name="experiencia" rows="5" cols="30" maxlength="500">Incluir mi experiencia aquí</textarea></p>
+</fieldset>
+<fieldset>
+
+<legend>Área de interés</legend>
+
+<p>
+	<select name="interes" multiple >
+	<optgroup label="informática">
+		<option value="web">Diseño web</option>
+		<option value="sistemas">Sistemas informáticos</option>
+		<option value="redes">Redes de ordenadores</option>
+		<option value="protocolos">Protocolos de comunicación</option>
+	</optgroup>
+	<optgroup label="arte">
+		<option value="pintura">Pintura</option>
+		<option value="dibujo">Dibujo</option>
+		<option value="escultura">Escultura</option>
+		<option value="vidrieras" selected>Vidrieras</option>
+	</optgroup>	
+	</select>
+</p>
+<p><input name="suscribir" type="checkbox" value="suscribir" checked="checked"> Suscribirme al boletín de novedades</p>
+</fieldset>
+
+<br>
+<input type="reset" >
+<input type="submit">
+ 
+ 
+</form>
+ 
+</body>
+ 
+</html>

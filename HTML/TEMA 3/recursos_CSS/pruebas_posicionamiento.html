@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Pruebas posicionamiento CSS</title>
+   <meta charset="utf-8">
+<style>
+#padre{  border:3px solid green;
+         width:150px;
+         padding-bottom:100px; 
+         background-color:lightgreen;
+		 }
+#hijo{   border:2px solid orange;
+         padding-right:50px;
+         padding-bottom:30px;
+         background-color:yellow;
+		 	 
+         position:static; 	/*MODIFICA ESTA PROPIEDAD*/
+         top:0px;			   /*MODIFICA ESTA PROPIEDAD*/
+         left:0px;			/*MODIFICA ESTA PROPIEDAD*/
+         bottom:0px;		   /*MODIFICA ESTA PROPIEDAD*/
+         right:0px;			/*MODIFICA ESTA PROPIEDAD*/
+		 }
+</style>
+</head>
+
+<body>
+<div id="padre"><span id="hijo"></span></div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function millasAKm(){
+            var millas = document.getElementById("Millas").value;
+            var kilometros = millas * 1.60934;
+            document.getElementById("MillasAKm").innerHTML = kilometros + " km";
+        }
+        function kmAMillas(){
+            var kilometros = document.getElementById("Km").value;
+            var millas = kilometros * 0.621371;
+            document.getElementById("KmAMillas").innerHTML = millas + " millas";
+        }
+        function limpia(){
+            document.getElementById("Millas").value = "";
+            document.getElementById("Km").value = "";
+            document.getElementById("MillasAKm").innerHTML = "";
+            document.getElementById("KmAMillas").innerHTML = "";
+        }
+    </script>
+    <style>
+        /* Aquí puedes añadir tu CSS */
+    </style>
+</head>
+
+<body>
+    <div class="morado">
+        <div class="amarillo">
+            <h2>VIAJAR ES FÁCIL</h2>
+        </div>
+
+        <div class="amarillo">
+            <h4>Conversión de millas a kilómetros</h4>
+            <p id="Millas">Millas: <input type="number" id="Millas"> <input type="button" value="Pasar a kilómetros" onclick="millasAKm()"> </p>
+            <p id="MillasAKm"></p>
+        </div>
+
+        <div class="amarillo">
+            <h4>Conversión de kilómetros a millas</h4>
+            <p id="Km">Kilómetros: <input type="number" id="Km"> <input type="button" value="Pasar a millas" onclick="kmAMillas()"> </p>
+            <p id="KmAMillas"></p>
+        </div>
+        <div class="amarillo">
+            <input type="button" value="Reset" onclick="limpia()">
+        </div>
+    </div>
+</body>
+
+</html>

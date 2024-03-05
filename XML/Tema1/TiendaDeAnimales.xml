@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+	<animales>
+		<peces>
+			<especies>
+				<salmoniformes precio="2,5$/ud" disponibilidad="47"> salmoniformes </salmoniformes>
+					<descripcion> 
+						Los salmoniformes son peces de agua dulce y salada conocidos por su forma elegante 						y su capacidad para nadar contra la corriente. Algunas especies, como el salmón, 						son famosas por sus migraciones épicas
+					</descripcion>
+				<payaso precio="4,99$/ud" disponibilidad="98"> payaso </payaso>
+					<descripcion>  Los peces payaso, también llamados peces anémona, son conocidos por sus colores vivos y su relación simbiótica con las anémonas marinas. Son peces pequeños y activos que aportan un toque de diversión a cualquier acuario.</descripcion>
+				<goldfish precio="2$/ud" disponibilidad="22"> goldfish </goldfish>
+					<descripcion> Los goldfish son peces de agua dulce populares en todo el mundo por sus atractivos colores y su facilidad de cuidado. Son ideales para principiantes en la acuariofilia.</descripcion>
+				<angel precio="1$/ud" disponibilidad="36"> angel </angel>
+					<descripcion> Los peces ángel son conocidos por sus aletas alargadas y su elegante apariencia. Vienen en una variedad de colores y patrones, lo que los convierte en una elección popular para acuarios más grandes.</descripcion>
+			</especies>
+		</peces>
+		<pajaros>
+			<jilgueros precio="6,99$/ud" disponibilidad="22"> jilgueros </jilgueros>
+				<descripcion> Los jilgueros son aves pequeñas y cantoras que destacan por sus plumajes coloridos. Su canto melodioso y su apariencia encantadora los convierten en mascotas populares para quienes aprecian la música de las aves.</descripcion>
+			<loro precio="10,99$/ud" disponibilidad="33"> loro </loro>
+				<descripcion> Los loros son conocidos por su inteligencia y habilidad para imitar el habla humana. Son aves sociables y cariñosas que pueden establecer fuertes lazos con sus dueños.</descripcion>
+			<agapornis precio="2,5$/ud" disponibilidad="45"> agapornis </agapornis>
+				<descripcion> Los agapornis, también llamados "inseparables", son pequeños loros africanos que son famosos por su fuerte vínculo con sus parejas y su actitud juguetona. Son ideales para quienes buscan una compañía cercana.</descripcion>
+			<cacatuas precio="2$/ud" disponibilidad="34"> cacatuas </cacatuas>
+				<descripcion> Las cacatuas son aves grandes y carismáticas conocidas por sus crestas prominentes y personalidades extrovertidas. Son mascotas cariñosas que pueden ser compañeros leales.</descripcion>
+		</pajaros>
+		<conejos>
+			<enano precio="3,99$/ud" disponibilidad="23"> enano </enano>
+				<descripcion> Los conejos enanos son pequeños y adorables, ideales para espacios más reducidos. Son juguetones y suelen ser muy cariñosos con sus dueños.</descripcion>
+			<angora precio="7,99$/ud" disponibilidad="12"> angora </angora>
+				<descripcion> Los conejos angora se destacan por su pelaje largo y suave que requiere un cuidado especial. Son dóciles y su apariencia es impresionante.</descripcion>
+			<belier precio="4,99$/ud" disponibilidad="11"> belier </belier>
+				<descripcion> Los conejos belier son conocidos por sus orejas caídas que les dan un aspecto encantador. Son conejos cariñosos y sociables.</descripcion>
+			<lop precio="7,99$/ud" disponibilidad="14"> lop </lop>
+				<descripcion> Los conejos lop tienen orejas largas y caídas que les dan una apariencia distintiva. Son conocidos por ser tranquilos y afectuosos.</descripcion>
+		</conejos>
+		<ratones>
+			<comun precio="2,99/ud" disponibilidad="43"> comun </comun>
+				<descripcion> Los ratones comunes son pequeños roedores conocidos por su agilidad y curiosidad. Son fáciles de cuidar y pueden ser mascotas juguetonas.</descripcion>
+			<calva precio="4,99/ud" disponibilidad="47"> calva </calva>
+				<descripcion> Los ratones calvos, también conocidos como ratones sin pelo, tienen una apariencia única debido a su falta de pelaje. Son una opción interesante para quienes buscan algo diferente.</descripcion>
+			<dumbo precio="1/ud" disponibilidad="22"> dumbo </dumbo>
+				<descripcion> Los ratones dumbo se caracterizan por sus orejas grandes y redondeadas que se asemejan a las del elefante Dumbo. Son ratones inteligentes y cariñosos.</descripcion>
+			<rex precio="2,5/ud" disponibilidad="16"> rex </rex>
+				<descripcion> Los ratones rex tienen un pelaje rizado y suave que les da una apariencia encantadora. Son amigables y pueden ser mascotas afectuosas.</descripcion>
+		</ratones>
+	</animales>
+	<comida>
+		<perro>
+			<comida_perro marca="NutriPaws" precio="6,99$/1kg" >Nutripaws 
+				<descripcion>Valor nutricional="Proteína (mínimo 25%), Grasa (mínimo 12%), Fibra (máximo 4%), Ingredientes de alta calidad con vitaminas y minerales. Edad recomendada= Adecuado para perros adultos de todas las edades.</descripcion> </comida_perro>
+			<comida_perro marca="HealthyHounds" precio="12,99$/1kg" >HealthyHounds
+				<descripcion> Valor nutricional="Proteína (mínimo 28%), Grasa (mínimo 14%), Fibra (máximo 5%), Enriquecido con antioxidantes y ácidos grasos omega-3. Edad recomendada= Apto para perros adultos de todas las razas."</descripcion> </comida_perro>
+			<comida_perro marca="SuperPup" precio="9,99$/1kg">SuperPup 
+				<descripcion>Valor nutricional= Proteína (mínimo 26%), Grasa (mínimo 13%), Fibra (máximo 6%), Contiene prebióticos y probióticos para una digestión saludable. Edad recomendada= Adecuado para perros adultos y cachorros mayores de 6 meses."</descripcion> </comida_perro>
+		</perro>
+		<gato>
+			<comida_gato marca="MeowMaster" precio="3,99$/1kg" > MeowMaster
+				<descripcion>Valor nutricional= Proteína (mínimo 30%), Grasa (mínimo 15%), Fibra (máximo 4%), Enriquecido con taurina y vitaminas esenciales. Edad recomendada= Adecuado para gatos adultos.</descripcion> </comida_gato>
+			<comida_gato marca="Purrfect Choice" precio="5,99$/1kg" > Purrfect Choice 
+				<descripcion>Valor nutricional=Proteína (mínimo 32%), Grasa (mínimo 18%), Fibra (máximo 3%), Ingredientes naturales y antioxidantes. Edad recomendada= Ideal para gatos adultos y senior.</descripcion> </comida_gato>
+			<comida_gato marca="Kitty Delight" precio="7,99$/1kg" > Kitty Delight 
+				<descripcion>valor_nutricional="Proteína (mínimo 28%), Grasa (mínimo 12%), Fibra (máximo 5%), Contiene Omega-3 y Omega-6 para una piel y pelaje saludables." edad_recomendada="Adecuado para gatos adultos y gatitos mayores de 6 meses."</descripcion></comida_gato>
+		</gato>
+		<peces>
+			<comida_peces tipo_de_comida="Pellets de calidad premium" marca="AquaPro" precio="2,99$/500g" > AquaPro 
+				<descripcion>Valor nutricional= Proteína (mínimo 40%), Grasa (mínimo 10%), Fibra (máximo 5%). Enriquecido con vitaminas y minerales esenciales para el crecimiento y el color de los peces. Edad recomendada= Apto para peces tropicales y de agua dulce de todas las edades.</descripcion></comida_peces>
+			<comida_peces tipo_de_comida="Escamas nutritivas" marca="FishElixir" precio="1,99$/500g" > FishElixir 
+				<descripcion>Valor nutricional= Proteína (mínimo 35%), Grasa (mínimo 8%), Fibra (máximo 4%). Contiene espirulina para mejorar el color y la salud de los peces. Edad recomendada= Adecuado para peces tropicales y de agua fría de todas las edades.</descripcion></comida_peces>
+			<comida_peces tipo_de_comida="Granulado de alta digestibilidad" marca="AquaLife" precio="3,99$/500g" > AquaLife 
+				<descripcion>Valor nutricional= Proteína (mínimo 38%), Grasa (mínimo 12%), Fibra (máximo 3%). Fórmula que ayuda a reducir la contaminación del agua y promueve la salud de los peces. Edad recomendada= Ideal para peces de agua dulce y salada, jóvenes y adultos."</descripcion></comida_peces>
+		</peces>
+		<pajaros>
+			<comida_pajaros tipo_de_comida="Granulado de alta digestibilidad" marca="FeatherFriend" precio="2,99$/500g" > FeatherFriend
+				<descripcion>Valor nutricional="Proteína (mínimo 15%), Grasa (mínimo 10%), Fibra (máximo 8%). Contiene una variedad de semillas y nueces para satisfacer las necesidades nutricionales de diferentes especies de aves. Edad recomendada= Adecuado para aves adultas de todas las edades."</descripcion> </comida_pajaros>
+			<comida_pajaros tipo_de_comida="Pellets nutritivos para loros" marca="ParrotParadise" precio="5,99$/500g" > ParrotParadise
+				<descripcion>Valor nutricional=Proteína (mínimo 20%), Grasa (mínimo 6%), Fibra (máximo 4%). Enriquecido con vitaminas, minerales y trozos de frutas secas. Edad recomendada= Ideal para loros adultos.</descripcion > 
+			</comida_pajaros>
+			<comida_pajaros tipo_de_comida="Mezcla de granos y frutas secas" marca="ParrotParadise" precio="7,99$/500g" > ParrotParadise
+				<descripcion>Valor nutricional=Proteína (mínimo 14%), Grasa (mínimo 8%), Fibra (máximo 6%). Contiene una combinación de granos, frutas y verduras deshidratadas. Edad recomendada= Apto para aves adultas de tamaño mediano y grande.</descripcion > 
+			</comida_pajaros>
+		</pajaros>
+	</comida>
+	<accesorios>
+		<juguetes>
+			<pelotas colores="azul/rojo/amarillo" tamaños="4cm/6cm/8cm"></pelotas>
+			<mordedores colores="gris/rojo/marron" tamaños="6cm/8cm/12cm"></mordedores>
+		</juguetes>
+		<collares>
+			<cuerda colores="azul/amarillo/negro" longitud="30cm/40cm"></cuerda>
+			<cable colores="negro/gris/blanco" lonngitud="50cm/60cm/80cm"></cable>
+		</collares>
+		<transportines>
+			<gato colores="azul/amarillo/rojo/gris/blanco" tamaño="70cm/100cm"></gato>
+			<perro colores="azul/amarillo/rojo/gris/blanco" tamaño="50cm/100cm/130cm"></perro>
+			<raton colores="negro/gris/blanco" tamaño="20cm/30cm/40cm"></raton>
+		</transportines>
+	</accesorios>
+</tienda>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

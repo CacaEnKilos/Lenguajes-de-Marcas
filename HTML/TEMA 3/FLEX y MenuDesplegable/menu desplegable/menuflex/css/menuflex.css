@@ -1,0 +1,49 @@
+.barra {
+  width: 99%;
+  margin:auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fondo {
+  background: linear-gradient(rgb(2, 62, 88),rgb(48, 157, 236));
+  border-radius: 3px;
+}
+.logo {
+  padding: 0px 20px;
+  font-size: 3em;
+  color: white;
+}
+.menu {
+  width:50%;
+  list-style-type: none;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.item {
+  padding: 10px;
+  font-weight: bold;
+}
+.item:hover {
+  background-color:rgb(83, 149, 196);
+  border-radius: 5px;
+  transition: 1s ease;
+}
+.desplegable {
+  padding: 10px;
+  list-style-type: none;
+  position: absolute;
+  top: 70px;
+  display:none;
+  z-index: 10;
+}
+.item:hover .desplegable {
+  display:block;
+}

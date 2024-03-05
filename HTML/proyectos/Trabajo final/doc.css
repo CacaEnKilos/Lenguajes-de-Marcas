@@ -1,0 +1,134 @@
+.inicio{  /*Para cambiar de tamaño y fuente las letras*/
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+
+} 
+body{ /*Fondo azul y padding*/
+    padding: 20px;
+    background-color: lightskyblue;
+}
+h1 {
+    text-align: center;
+}
+
+h1:first-of-type { /*Titulo en fondo azul*/
+    border: 2px solid gray;
+    border-radius: 100px;
+    background-color: aquamarine;
+}
+
+.cajadiv{/*Caja amarilla de fondo*/
+    text-align: center;
+    padding: 2%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: khaki;
+}
+h2{/*Para el título de la parte*/
+    font-size: xx-large;
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: moccasin;
+
+}
+.pregunta{
+    font-size: x-large;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcoral;   
+    width: 60%;
+}
+.respuesta{
+    font-size: larger;
+    border: 2px solid gray;
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 5px;
+    width: 60%;
+}
+.menu{
+    font-size: xx-large;
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: moccasin;
+    text-decoration: none;
+    color: black;
+}
+.boton{
+    position: fixed;
+    bottom: 90%;
+    left: 85%;
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.Parte3{
+    position: relative;
+    padding: 10px;
+    background-color: red; 
+    color: white; 
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px darkred;
+}
+.Parte2{
+    position: relative;
+    padding: 10px;
+    background-color: red; 
+    color: white; 
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px darkred;
+}
+.indice{
+    font-size: 30px;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+}
+.partes{
+    font-size: x-large;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    margin: 10px;
+}
+.txtmenu{
+    font-size: 20px;
+}
+img{
+    width: 25px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.imgXL{
+    width: 100%;
+}
+.imgL{
+    width: 100%;
+}

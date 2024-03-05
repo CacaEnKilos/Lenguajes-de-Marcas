@@ -1,0 +1,13 @@
+.cuadro1 {
+    height: 100px;
+    background-color: red;
+    float: left;
+    width: 20%;
+}
+
+.cuadro2 {
+    height: 100px;
+    background-color: blue;
+    width: 80%;
+    float: left;
+}

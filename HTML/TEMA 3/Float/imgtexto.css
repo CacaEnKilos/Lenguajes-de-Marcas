@@ -1,0 +1,9 @@
+img:first-of-type{
+    float:left;
+}
+img:last-of-type{
+    float:left;
+}
+p:first-of-type{
+    clear: left;
+}

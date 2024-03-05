@@ -1,0 +1,42 @@
+.pregunta{
+    font-size: x-large;
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightcoral;   
+}
+.respuesta{
+    font-size: larger;
+    border: 2px solid gray;
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+body{
+    background-color: lightskyblue;
+    padding: 20px;
+    text-align: center;
+}
+.titulo{
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightsalmon;
+    border: 5px solid gray;
+    display: inline-block;
+    border-radius: 10px;
+}
+img{
+    width: 25px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.imgXL{
+    width: 500px;
+}
+.imgL{
+    width: 750px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./conversion.css">
+  <script>
+    function kmAmillas(kilometros) {
+      millas = kilometros * 0.621371;
+      document.getElementById("resMillas").innerHTML = millas + " millas";
+    }
+    function millasAkm(millas) {
+      kilometros = millas * 1.60934;
+      document.getElementById("resKilometros").innerHTML = kilometros + " km";
+    }
+    function limpia() {
+      document.getElementById("resMillas").innerHTML = "millas";
+      document.getElementById("resKilometros").innerHTML = "kilómetros";
+      document.getElementById("millas").value = "";
+      document.getElementById("kilometros").value = "";
+    }
+  </script>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="cuadro">
+      <h2>VIAJAR ES FÁCIL</h2>
+    </div>
+    <div class="cuadro">
+      <h3>Conversión de millas a kilómetros</h3>
+      <p>
+        <label for="millas">Millas: </label>
+        <input id="millas" />
+        <button type="button" onclick="millasAkm(document.getElementById('millas').value);">Pasa a kilómetros</button>
+      <p class="resultado" id="resKilometros">kilómetros</p>
+      </p>
+    </div>
+    <div class="cuadro">
+      <h3>Conversión de kilómetros a millas</h3>
+      <p>
+        <label for="kilometros">Kilometros:</label>
+        <input id="kilometros" />
+        <button type="button" onclick="kmAmillas(document.getElementById('kilometros').value);">Pasa a millas</button>
+      <p class="resultado" id="resMillas">millas</p>
+      </p>
+    </div>
+    <div class="reset cuadro">
+      <button type="button" onclick="limpia();">Reset</button>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .contenedor {
+        color: rgb(183, 188, 214);
+        background-color: rgb(94, 78, 136);
+        display: grid;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 10px;
+    }
+    
+    @media (min-width:801px) {
+        .contenedor {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas: "titulo titulo verdura verdura" "ham ham verdura verdura" "queso azul azul tortitas";
+            height: 800px;
+        }
+    }
+    
+    @media (max-width:800px) {
+        .contenedor {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr repeat(5, 5fr);
+            grid-template-areas: "titulo titulo" "verdura verdura" "verdura verdura" "ham ham" "queso tortitas" "azul azul";
+            height: 1500px;
+        }
+    }
+    
+    .titulo {
+        grid-area: titulo;
+        background-image: url("../img/fondocomidagris.jpg");
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .titulo h1 {
+        width: 90%;
+    }
+    
+    .fondo {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .verdura {
+        grid-area: verdura;
+        background-image: url("../img/Fruit.jpeg");
+    }
+    
+    .ham {
+        grid-area: ham;
+        background-image: url("../img/hamburguesa.jpg");
+    }
+    
+    .azul {
+        grid-area: azul;
+        background-image: url("../img/azul.jpg");
+    }
+    
+    .quesos {
+        grid-area: queso;
+        background-image: url("../img/cheese_and_biscuits.jpg");
+    }
+    
+    .tortitas {
+        grid-area: tortitas;
+        background-image: url("../img/tortitas.jpg");
+    }

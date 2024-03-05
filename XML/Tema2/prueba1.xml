@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo.css"?>
+<agenda xmlns:a="https://www.christian.com/agenda" xmlns:c="https://www.todocine.com/cine">
+    <a:entrada>
+        <a:nombre>Pepe</a:nombre>
+        <a:telefono>55555</a:telefono>
+        <a:direccion>Calle Muela de San Juan</a:direccion>
+    </a:entrada>
+    <a:entrada>
+        <a:nombre>Juan</a:nombre>
+        <a:telefono>123123</a:telefono>
+        <a:telefono>989868</a:telefono>
+        <a:direccion>Paseo capa negra 4</a:direccion>
+    </a:entrada>
+    <a:entrada>
+        <a:nombre>Pedro</a:nombre>
+        <a:telefono>603323421</a:telefono>
+        <a:telefono>547312343</a:telefono>
+        <a:direccion>Calle rio Miño</a:direccion>
+    </a:entrada>
+    <c:entrada>
+        <c:pelicula>No mires arriba</c:pelicula>
+        <c:nacionalidad>Americana</c:nacionalidad>
+    </c:entrada>
+</agenda>

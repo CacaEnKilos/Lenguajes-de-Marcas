@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+	<contacto>
+		<nombre genero="mujer"> Maria </nombre>
+		<ciudad cp="28031"> Madrid </ciudad>
+	</contacto>
+	<contacto>
+		<nombre genero="hombre"> Juan </nombre>
+		<ciudad cp="28522"> Rivas-Vaciamadrid </ciudad>
+		<telefonos>
+			<telefono>229144329</telefono>
+			<telefono>258522151</telefono>
+		</telefonos>
+	</contacto>
+</agenda>
+	

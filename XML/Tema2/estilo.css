@@ -1,0 +1,16 @@
+entrada{
+    border: 2px solid gray;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 19px;
+    box-shadow: 10px 10px lightskyblue;
+}
+nombre{
+    border: 3px solid black;
+}
+telefono{
+    color: red;
+}
+direccion{
+    color: green;
+}

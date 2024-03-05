@@ -1,0 +1,682 @@
+/* Fuente de fontspace.com, sólo para uso personal */
+@font-face {
+  font-family: "ComicKids-WyvKG";
+  src: url("../fonts/ComicKids-WyvKG.otf");
+}
+
+body {
+  background: radial-gradient(#712424, #2c337b);
+}
+
+/* FIJAMOS el ancho y la posición de la escena y de los mensajes */
+.escena,
+.mensaje {
+  width: 480px;
+  margin: auto;
+}
+
+/* La escena tendrá como fondo la mansión, ¡¡ sólo al cargar la página !! */
+.escena {
+  height: 784px;
+  margin: auto;
+  background-image: url("../img/mansion.jpg");
+  /* Imagen de Wombo Dream */
+  background-size: cover;
+  position: relative;
+}
+
+.mensaje {
+  font-family: "ComicKids-WyvKG";
+  background-color: white;
+  padding: 3px;
+}
+
+.mensaje p {
+  margin-left: 10px;
+}
+
+.puerta {
+  width: 14px;
+  height: 49px;
+  background-color: transparent;
+  position: absolute;
+  left: 304px;
+  top: 479px;
+}
+
+.interruptor {
+  display: none;
+  /* Inicialmente no se verá el interruptor */
+  width: 16px;
+  height: 34px;
+  background-image: url("../img/interruptor_oscuro.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 385px;
+  top: 402px;
+}
+
+/* Coloca la pata en la escena de forma discreta, que no se vea fácil*/
+.pata {
+  display: none;
+  /* Inicialmente no se verá la pata */
+  width: 11px;
+  height: 12px;
+  background-image: url("../img/pata.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 346px;
+  top: 607px;
+}
+
+/* Este es Togo, visualízado encima de la alfombra */
+.togo {
+  /* PON AQUÍ EL CSS DE TOGO */
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 220px;
+  height: 280px;
+  background-image: url("../img/togo.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 145px;
+  top: 402px;
+}
+.pomo{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 35px;
+  height: 60px;
+  background-image: url("../img/pomoNegro.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 50px;
+  top: 579px;
+  z-index: 10;
+  transform: rotate(355deg);
+}
+.llave {
+  display: none;
+  width: 16px;
+  height: 37px;
+  background-image: url(../img/Llave.png);
+  background-size: cover;
+  position: absolute;
+  left: 422px;
+  top: 103px;
+  z-index: 10;
+  transform: rotate(45deg);
+}
+.flecha{
+  display: block;
+  /* Inicialmente no se visualiza */
+  width: 26px;
+  height: 37px;
+  background-image: url("../img/CartelFlecha.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 35px;
+  top: 530px;
+}
+.puertaRoja {
+  display: none;
+  width: 114px;
+  height: 360px;
+  background-color: transparent;
+  position: absolute;
+  left: 4px;
+  top: 179px;
+}
+.puertaAzul {
+  display: none;
+  width: 114px;
+  height: 360px;
+  background-color: transparent;
+  position: absolute;
+  left: 174px;
+  top: 179px;
+}
+.puertaVerde {
+  display: none;
+  width: 114px;
+  height: 360px;
+  background-color: transparent;
+  position: absolute;
+  left: 350px;
+  top: 179px;
+}
+.armarioEntrar{
+  display: none;
+  width: 98px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  z-index: 12;
+}
+.numeroVerde{
+  display: none;
+  width: 37px;
+  height: 40px;
+  background-color: transparent;
+  position: absolute;
+  left: 208px;
+  top: 540px;
+}
+.numeroAlto{
+  display: none;
+  width: 39px;
+  height: 30px;
+  background-color: transparent;
+  position: absolute;
+  left: 111px;
+  top: 589px;
+}
+.respuestaUsuario{
+  display: none;
+  position: absolute;
+  left: 111px;
+  top: 750px;
+}
+.enviarRespuesta{
+  display: none;
+  position: absolute;
+  left: 290px;
+  top: 750px;
+}
+.vida1{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 43px;
+  height: 37px;
+  background-image: url("../img/Corazon.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  padding: 10px;
+}
+.vida2{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 43px;
+  height: 37px;
+  background-image: url("../img/Corazon.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 90px;
+  top: 30px;
+  padding: 10px;
+}
+.vida3{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 43px;
+  height: 37px;
+  background-image: url("../img/Corazon.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 145px;
+  top: 30px;
+  padding: 10px;
+}
+.perro{
+  display: none;
+  width: 95px;
+  height: 113px;
+  background-color: transparent;
+  position: absolute;
+  left: 197px;
+  top: 272px;
+  z-index: 11;
+}
+.cabeza{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 43px;
+  height: 26px;
+  background-image: url("../img/Cabeza.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 222px;
+  top: 301px;
+}
+.puertaPasillo1{
+  display: none;
+  width: 28px;
+  height: 286px;
+  background-color: transparent;
+  position: absolute;
+  left: 384px;
+  top: 179px; 
+}
+.puertaPasillo2{
+  display: none;
+  width: 28px;
+  height: 152px;
+  background-color: transparent;
+  position: absolute;
+  left: 92px;
+  top: 179px; 
+}
+.puertaSalida{
+  display: none;
+  width: 71px;
+  height: 282px;
+  background-color: red;
+  position: absolute;
+  left: 210px;
+  top: 219px;
+}
+.salidaBosque{
+  display: none;
+  width: 135px;
+  height: 324px;
+  background-color: transparent;
+  position: absolute;
+  left: 164px;
+  top: 219px;
+}
+.alarma{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 77px;
+  height: 73px;
+  background-image: url("../img/Alarma.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 228px;
+  top: 12px;
+  transform: rotate(177deg);
+
+}
+.cama{
+  display: none;
+  width: 286px;
+  height: 248px;
+  background-color: transparent;
+  position: absolute;
+  left: 195px;
+  top: 406px; 
+}
+.armario{
+  display: none;
+  width: 119px;
+  height: 348px;
+  background-color: transparent;
+  position: absolute;
+  left: 39px;
+  top: 179px; 
+}
+.entrarPuerta{
+  display: none;
+  width: 72px;
+  height: 117px;
+  background-color: transparent;
+  position: absolute;
+  left: 204px;
+  top: 287px; 
+  z-index: 10;
+}
+.sombra{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 206px;
+  height: 254px;
+  background-image: url("../img/SombraEspejo.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 95px;
+  top: 412px;
+}
+.salirVentana{
+  display: none;
+  width: 146px;
+  height: 330px;
+  background-color: transparent;
+  position: absolute;
+  left: 288px;
+  top: 167px;
+  z-index: 10;
+}
+.huirBosque{
+  display: none;
+  width: 169px;
+  height: 330px;
+  background-color: transparent;
+  position: absolute;
+  left: 310px;
+  top: 1px;
+  z-index: 10;
+}
+.huirBosque2{
+  display: none;
+  width: 182px;
+  height: 330px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  z-index: 10;
+}
+.peleaSombra{
+  display: none;
+  width: 182px;
+  height: 330px;
+  background-color: transparent;
+  position: absolute;
+  left: 145px;
+  top: 1px;
+  z-index: 9;
+}
+.panel{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 78px;
+  height: 79px;
+  background-image: url("../img/panel.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 366px;
+  top: 280px;
+}
+.panelTocar{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 400px;
+  height: 515px;
+  background-image: url("../img/PanelNumeros.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 41px;
+  top: 140px;
+}
+.uno{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 101px;
+  top: 285px;
+  z-index: 12;
+}
+.uno:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.dos{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 206px;
+  top: 285px;
+  z-index: 12;
+}
+.dos:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.tres{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 312px;
+  top: 285px;
+  z-index: 12;
+}
+.tres:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.cuatro{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 101px;
+  top: 402px;
+  z-index: 12;
+}
+.cuatro:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.cinco{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 206px;
+  top: 402px;
+  z-index: 12;
+}
+.cinco:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.seis{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 312px;
+  top: 402px;
+  z-index: 12;
+}
+.seis:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.siete{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 100px;
+  top: 520px;
+  z-index: 12;
+}
+.siete:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.submit{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 206px;
+  top: 520px;
+  z-index: 12;
+}
+.submit:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.cero{
+  display: none;
+  width: 69px;
+  height: 68px;
+  background-color: transparent;
+  position: absolute;
+  left: 312px;
+  top: 520px;
+  z-index: 12;
+}
+.cero:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.botonAtras{
+  display: none;
+  /* Inicialmente no se visualiza */
+  width: 83px;
+  height: 83px;
+  background-image: url("../img/BotonAtras.png");
+  /* Imagen de Wombo Dream manipulada con GIMP */
+  background-size: cover;
+  position: absolute;
+  left: 192px;
+  top: 650px;
+  transform: rotate(270deg);
+
+}
+.botonAtras:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario1 {
+  display: none;
+  width: 48px;
+  height: 86px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 232px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 15deg);
+}
+.Armario1:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario2 {
+  display: none;
+  width: 29px;
+  height: 98px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 320px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 6deg);
+}
+.Armario2:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario3 {
+  display: none;
+  width: 46px;
+  height: 88px;
+  background-color: transparent;
+  position: absolute;
+  left: 38px;
+  top: 330px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 9deg);
+}
+.Armario3:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario4 {
+  display: none;
+  width: 43px;
+  height: 76px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 342px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 10deg);
+}
+.Armario4:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario5 {
+  display: none;
+  width: 36px;
+  height: 75px;
+  background-color: transparent;
+  position: absolute;
+  left: 138px;
+  top: 349px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 3deg);
+}
+.Armario5:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario6 {
+  display: none;
+  width: 29px;
+  height: 103px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 429px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 6deg);
+}
+.Armario6:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario7 {
+  display: none;
+  width: 46px;
+  height: 94px;
+  background-color: transparent;
+  position: absolute;
+  left: 37px;
+  top: 433px;
+  z-index: 12;
+  transform: rotate(0deg) skew(360deg, 3deg);
+}
+.Armario7:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario8 {
+  display: none;
+  width: 43px;
+  height: 77px;
+  background-color: transparent;
+  position: absolute;
+  left: 90px;
+  top: 446px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 5deg);
+}
+.Armario8:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario9{
+  display: none;
+  width: 38px;
+  height: 82px;
+  background-color: transparent;
+  position: absolute;
+  left: 138px;
+  top: 438px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg, 5deg);
+}
+.Armario9:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.Armario10{
+  display: none;
+  width: 30px;
+  height: 71px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 555px;
+  z-index: 12;
+  transform: rotate(0deg) skew(1deg,-6deg);
+}
+.Armario10:hover{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+

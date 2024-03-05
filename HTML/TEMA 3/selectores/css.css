@@ -1,0 +1,51 @@
+/*Este es el CSS*/
+
+
+/*Este * es un selector universal*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Este "p" es un unico selector*/
+
+p {
+    color:blue;
+    font-size: 35px;
+}
+h1{
+    color: blueviolet;
+}
+/*Este "p, a" es un selector vario*/
+
+
+p, a {
+    background-color: yellow;
+}
+/*Este "p strong" es un selector que selecciona los que estan dentro de "p" en "strong"
+    |
+    |
+    V
+p strong {
+    color: red;
+}*/
+
+p strong  em, a{
+    color: red;
+}
+
+
+/*Este "./class" es un selector de clase, 
+tu pones una clase en el html y se enlaza con el css*/
+
+
+.azul{
+    background-color: aquamarine;
+}
+
+/*Este "#primero" es un selector de clase, 
+tu pones una clase en el html y se enlaza con el css
+excepto que solo se puede vincular con 1*/
+
+#primero{
+    font-size: 15px;
+}

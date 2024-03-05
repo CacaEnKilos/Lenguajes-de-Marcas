@@ -1,0 +1,18 @@
+/* Estilos para el ejercicio: menu desplegable */
+
+.menu {
+    width: 200px;
+    margin: auto;
+}
+
+.opciones {
+    display: none;
+}
+
+.menu:hover .opciones {
+    display: block;
+}
+
+.opciones a {
+    display: block;
+}

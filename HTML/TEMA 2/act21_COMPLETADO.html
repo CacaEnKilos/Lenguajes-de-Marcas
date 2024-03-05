@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4>Rellena tu CV</h4>
+    <form>
+        Nombre y apellidos
+        <br>
+        <input name="nombre" maxlength="50" size="30">
+        <br>
+        <br>
+        Contraseña
+        <br>
+        <input type="password" maxlength="10">
+        <br>
+        <br>
+        DNI
+        <br>
+        <input type="DNI" autofocus>
+        <br>
+        <br>
+        Estado actual
+        <br>
+        <input id="pastor" type="radio" name="Estado" value="Desempleado" checked disabled>
+        <label for="pastor">Desempleado</label>
+        <br>
+        <input id="cocker" type="radio" name="Estado" value="Trabajando">
+        <label for="cocker">Trabajando:</label>
+        <br>
+        <br>
+        Incluir mi foto <input type="button" value="Seleccionar archivo"> Ningun archivo seleccionado
+        <br>
+        <br>
+        <textarea name="area" id="area" cols="50" rows="10" autofocus>Incluir mi experiencia aquí</textarea>
+        <br>
+        <br>
+        <p>
+
+            <label for="select">Área de interés</label>
+            <br>
+            <br>
+            <select name="select" id="select" size="10" multiple>
+                <optgroup label="informáticos">
+                    <option value="1">Diseño web</option>
+                    <option value="2">Sistemas informáticos</option>
+                    <option value="3">Redes de ordenadores</option>
+                    <option value="4">Protocolos de comunicación</option>
+                </optgroup>
+                <optgroup label="arte">
+                    <option value="5">Pintura</option>
+                    <option value="6">Dibujo</option>
+                    <option value="7">Escultura</option>
+                    <option value="8" selected>Vidrieras</option>
+                </optgroup>
+            </select>
+
+
+        </p>
+        <p>
+            <input id="Suscribirme" type="checkbox" name="Suscribirme al boletín de novedades" value="Peinar"> <label
+                for="Suscribirme al boletín de novedades">Suscribirme al boletín de novedades</label>
+        </p>
+        <br>
+        <button type="submit">
+            <img src="./recursos_HTML/img/enviar.png" width="150">
+        </button>
+        <button type="reset">
+            <img src="./recursos_HTML/img/eliminar.png" width="60">
+        </button>
+        <br>
+        <br>
+
+
+    </form>
+</body>
+
+</html>

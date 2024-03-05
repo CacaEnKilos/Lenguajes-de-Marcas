@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Formato de texto</title>
+    <style>
+        
+            
+        #titulo{
+            font-size: 20px;
+            text-decoration-line: overline underline ;
+            text-decoration-style: double;
+            font-weight: bold;
+            letter-spacing: 10px;
+            background-color: white;
+            display: inline-block;
+        }
+        body{
+            margin: auto;
+            width: 50%;
+            min-width: 200px;
+            background-image: url(./noche.jpg);
+        }
+        p:first-of-type{
+            margin-top:50px;
+            margin-bottom: 50px;
+        }
+        p:nth-of-type(2){
+            margin-bottom: 50px;
+            color: white;
+            font-size: large;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 5px navy;
+            font-style: italic;
+        }
+        p:nth-of-type(3){
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+            color: white;
+            font-size: large;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 5px navy;
+            font-style: italic;
+        }
+        span{
+            display: block;
+            line-height:2;
+        }
+        div{
+            background-image: url(lobos.jpg);
+            border-radius: 5px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+        .blanco{
+            display: inline-block;
+            text-shadow: 5px 5px 5px white;
+        }
+        .subblanco{
+            display: inline-block;
+            border-bottom: 2px dotted;
+            
+        }
+        .subnaranja{
+            display: inline-block;
+            border-bottom: 2px dotted orangered;
+            text-decoration-line: line-through;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p id="titulo">Cuando llega la noche</p>
+        <p><span>Con un vaso de <span class="blanco"> leche</span>,</span><span> con un gorro de lana, </span><span>las <span class="subblanco"> ovejas</span> cuentan
+                lobos,</span><span>arropadas en la cama.</span></p>
+        <p><span>Con un pijama <span class="blanco">blanco</span>,<span></span> con cara de embobadas... </span><span>las <span class="subblanco"> ovejas</span> cuentan <span class="subnaranja"> lobos</span>,
+            </span><span>arropadas en la cama.</span></p>
+    </div>
+</body>
+</body>
+
+</html>
